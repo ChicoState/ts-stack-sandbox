@@ -10,6 +10,6 @@ app.get('/', (request: express.Request, response: express.Response) => {
     response.send("Our TypeScript on Node server is running.");
 });
 
-app.listen(8080, () => {
+app.listen(PORT, HOST, () => {
   console.log(`Server is running on ${HOST}:${PORT}`);
 });
